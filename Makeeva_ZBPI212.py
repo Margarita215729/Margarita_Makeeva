@@ -109,7 +109,7 @@ class Student:
     def greeting(self):
         return f'Hello, I am {self.fullname}'
 
-    def mean_grades(self):
+    def mean_grade(self):
         return sum(self.grades)/len(self.grades)
 
     def is_otlichnik(self):
