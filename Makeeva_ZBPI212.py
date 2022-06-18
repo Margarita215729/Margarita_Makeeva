@@ -62,8 +62,6 @@ def calculate(path2file):
             elif ex[0] == '%':
                 answer = int(ex[1]) % int(ex[2])
                 a.append(answer)
-        with open(path2file, 'w') as file:
-            file.write(','.join(map(str,a)))
         return ','.join(map(str,a))
     file.close()
 
